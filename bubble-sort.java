@@ -3,20 +3,20 @@ public class Bubble
 {
     public static void main(String args[])
     {
-        System.out.println("Bubble Sort Technique!!!!!!!!!!!!!!!!!!!!!!!!");
-        System.out.println("=============================================");
+        System.out.println("Bubble Sort Technique!");
         Scanner sc=new Scanner(System.in);
-        //length input
-        System.out.println("Enter the No. of elements : ");
+        
+        System.out.println("Enter number of elements: ");
         int n=sc.nextInt();
-        // declaring array
-        System.out.println("Enter the Elements of the array : ");
+        
+        System.out.println("Enter the Elements of the array: ");
         int a[]=new int[n];
         for(int i=0;i<a.length;i++)
         {
             a[i]=sc.nextInt();
+            System.out.println(a[i]);
         }
-        //now sorting
+        
         for(int i=0;i<a.length;i++)
         {
             for(int j=0;j<a.length-i-1;j++)
@@ -30,6 +30,7 @@ public class Bubble
                 }
             }
         }
+        
         System.out.println("The sorted array  : ");
         for(int i=0;i<a.length;i++)
         {
