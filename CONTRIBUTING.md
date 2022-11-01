@@ -1,3 +1,13 @@
+# Follow the Java Naming Conventions and Best Practices
+
+1. Use __PascalCase__ for class names. 
+2. Use __camelCase__ for function names.
+3. Avoid using "-" or "_" inbetween class or function names.
+4. Give Your variables, functions, classes a meaningful name.
+5. Provide comments where ever possible.
+For more information refer [Oracle's Java Naming Convention](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html)
+You can also look into the SampleProgram.java for clarification.
+
 # Issues
 
 ## Create a new issue
